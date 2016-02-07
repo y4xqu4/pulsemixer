@@ -25,8 +25,11 @@ import curses
 import re
 import getopt
 import signal
+from setproctitle import setproctitle
 from os import environ
 from pprint import pprint
+
+setproctitle('pulsemixer')
 
 #########################################################################################
 # v bindings
