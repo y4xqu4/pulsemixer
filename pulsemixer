@@ -25,7 +25,10 @@ import re
 import getopt
 import signal
 from os import environ, getenv
+from setproctitle import setproctitle
 from pprint import pprint
+
+setproctitle('pulsemixer')
 
 #########################################################################################
 # v bindings
